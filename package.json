@@ -1,0 +1,29 @@
+{
+  "name": "react-hook-ambient-light",
+  "version": "1.1.1",
+  "description": "React hook for Ambient Light Sensor access",
+  "keywords": [
+    "react",
+    "hook",
+    "ambient",
+    "light"
+  ],
+  "repository": "git@github.com:masaok/react-hook-ambient-light.git",
+  "main": "dist/index.js",
+  "license": "LGPL",
+  "author": "Masao Kitamura",
+  "scripts": {
+    "build": "rm -rf dist && babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-core": "^6.26.3",
+    "react": "^17.0.2"
+  },
+  "files": [
+    "/dist"
+  ]
+}
